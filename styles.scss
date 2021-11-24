@@ -1,0 +1,70 @@
+@import "./components/variables";
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "jost";
+}
+html{
+  background-color: $background-color;
+}
+.container{
+  display: flex;
+  margin: 20px;
+}
+.top__container{
+  margin-top: 40px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  color: $title-color;
+}
+p, .placeholder{
+  color: $font-color;
+}
+.nav__icon{
+  font-size: 24px;
+  color: $title-color;
+  margin-left: 20px;
+}
+
+.input-todo{
+  background-color: $input-color;
+  border: 3px dashed $font-color;
+}
+#input{
+  border: none;
+  background-color: $input-color;
+  color: $title-color;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.resetButton{
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  color: $title-color;
+}
+.resetButton:hover{
+  background-image: linear-gradient(180deg, #e2c1c1, #ea8282);
+}
+.fa-plus-circle{
+  color: $button-color;
+  background: $input-color;
+  border: none;
+  justify-content: center;
+}
+
+.tasks{
+  font-size: 16px;
+  color: $title-color;
+}

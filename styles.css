@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "jost";
+}
+
+html {
+  background-color: #232229;
+}
+
+.container {
+  display: flex;
+  margin: 20px;
+}
+
+.top__container {
+  margin-top: 40px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+p, .placeholder {
+  color: #6c6a7c;
+}
+
+.nav__icon {
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.input-todo {
+  background-color: #2b2a33;
+  border: 3px dashed #6c6a7c;
+}
+
+#input {
+  border: none;
+  background-color: #2b2a33;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.resetButton {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 30px;
+  margin-right: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.resetButton:hover {
+  background-image: linear-gradient(180deg, #e2c1c1, #ea8282);
+}
+
+.fa-plus-circle {
+  color: #e58181;
+  background: #2b2a33;
+  border: none;
+  justify-content: center;
+}
+
+.tasks {
+  font-size: 16px;
+  color: #ffffff;
+}
