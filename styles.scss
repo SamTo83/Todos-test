@@ -22,6 +22,7 @@ html{
 }
 .nav{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 50px;
 
@@ -53,13 +54,22 @@ p, .placeholder{
   padding: 16px;
   width:  80%;
 }
+.plusButton{
+  border-radius: 40%;
+  border-color: $button-color;
+  color: $button-color;
+  font-size: x-large;
+}
+i{
+  color: $button-color;
+}
 
 .resetButton{
   background-image: linear-gradient(180deg, #e1a0a0, #e58181);
   box-shadow: 0 10px 40px #6b3838;
   font-size: 16px;
   font-weight: bold;
-  padding: 30px;
+  padding: 10px 30px;
   margin-right: 20px;
   border-radius: 10px;
   color: $title-color;
